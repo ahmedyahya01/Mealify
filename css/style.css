@@ -15,17 +15,14 @@
     --color-light: hsl(var(--light-hue),
             var(--light-saturation),
             var(--light-lightness));
-
     --color-light-grey: #eee;
 
     /* Fonts */
-
     --font-default: 'Open Sans', sans-serif;
     --font-primary: 'Amatic SC', sans-serif, 'Courgette', cursive, 'Inter', sans-serif;
     --font-secondary: 'Inter', sans-serif;
 
     /* animation options */
-
     --animation-duration: 400ms
 }
 
@@ -76,7 +73,6 @@ ul {
 /* __________Reapeated styles */
 
 .section-bg {
-
     background-color: var(--color-light-grey);
 }
 
@@ -157,7 +153,7 @@ nav {
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
     top: 0;
-    left: 0;
+    padding-inline: 10px;
     z-index: 999999;
 }
 
@@ -181,7 +177,7 @@ nav ul {
 }
 
 .nav-links:target {
-    transform: translateX(0);
+    transform: translateX(0px);
 }
 
 .logo {
@@ -385,7 +381,6 @@ header .v-btn:hover {
     height: 40px;
     background-color: var(--color-light);
     border-radius: inherit;
-
 }
 
 .v-btn .icon i {
@@ -662,7 +657,7 @@ header .v-btn:hover {
 .contact textarea {
     resize: vertical;
     min-height: 150px;
-    max-height: 300px;
+    max-height: 200px;
 }
 
 .contact form button {
@@ -702,14 +697,13 @@ footer .subscription {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-block: 0px 12px;
+    margin-block: 0px 10px;
 
 }
 
 footer .about img {
     width: 40px;
     height: 40px;
-    flex-shrink: 0;
     margin-right: 10px;
 }
 
